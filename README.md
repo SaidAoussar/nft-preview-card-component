@@ -7,8 +7,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Author](#author)
 
 ### The challenge
@@ -25,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [code](https://github.com/SaidAoussar/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [demo](https://saidaoussar.github.io/nft-preview-card-component/)
 
 ### Built with
 
