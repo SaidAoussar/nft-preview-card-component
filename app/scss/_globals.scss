@@ -1,0 +1,35 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: $veryDarkBlueMainBg;
+  color: $white;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 330px;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+}
+
+.p-all {
+  padding: 26px;
+}
