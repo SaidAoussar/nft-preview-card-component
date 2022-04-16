@@ -1,0 +1,109 @@
+.card {
+  background-color: $veryDarkBlueCardBg;
+  border-radius: 15px;
+  &__image {
+    border-radius: 10px;
+    overflow: hidden;
+    div {
+      position: relative;
+      height: 280px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      &::before {
+        content: url("../../images/icon-view.svg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        background-color: $cyan;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: $default-transition;
+      }
+
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: $fw-lg;
+    transition: $default-transition;
+    cursor: pointer;
+    &:hover {
+      color: $cyan;
+    }
+  }
+
+  &__description {
+    font-size: 18px;
+    font-weight: $fw-sm;
+    color: $softBlue;
+    line-height: 1.5;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    .price {
+      display: flex;
+      padding: 5px;
+      color: $cyan;
+      align-items: center;
+      img {
+        margin-right: 5px;
+        height: 18px;
+      }
+    }
+
+    .publish-date {
+      display: flex;
+      padding: 5px;
+      color: $softBlue;
+      align-items: center;
+      img {
+        margin-right: 5px;
+        height: 17px;
+      }
+    }
+  }
+
+  hr {
+    border: 1px solid $veryDarkBlueLine;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    .avatar {
+      div {
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+        background-position: center center;
+        border: 1px solid $white;
+        border-radius: 50%;
+      }
+    }
+
+    span {
+      color: $softBlue;
+      a {
+        text-decoration: none;
+        color: $white;
+        transition: $default-transition;
+
+        &:hover {
+          color: $cyan;
+        }
+      }
+    }
+  }
+}
