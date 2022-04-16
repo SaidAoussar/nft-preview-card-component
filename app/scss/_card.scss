@@ -1,12 +1,13 @@
 .card {
   background-color: $veryDarkBlueCardBg;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   &__image {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     overflow: hidden;
+    margin-bottom: 1.625rem;
     div {
       position: relative;
-      height: 280px;
+      height: 17.5rem;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -33,9 +34,10 @@
   }
 
   &__title {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: $fw-lg;
     transition: $default-transition;
+    margin-bottom: 1.25rem;
     cursor: pointer;
     &:hover {
       color: $cyan;
@@ -43,32 +45,34 @@
   }
 
   &__description {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: $fw-sm;
     color: $softBlue;
     line-height: 1.5;
+    margin-bottom: 1.625rem;
   }
   &__info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
     .price {
       display: flex;
-      padding: 5px;
+      padding: 0.3125rem;
       color: $cyan;
       align-items: center;
       img {
-        margin-right: 5px;
+        margin-right: 0.3125rem;
         height: 18px;
       }
     }
 
     .publish-date {
       display: flex;
-      padding: 5px;
+      padding: 0.3125rem;
       color: $softBlue;
       align-items: center;
       img {
-        margin-right: 5px;
+        margin-right: 0.3125rem;
         height: 17px;
       }
     }
@@ -76,6 +80,8 @@
 
   hr {
     border: 1px solid $veryDarkBlueLine;
+    margin-top: 0px;
+    margin-bottom: 0.75rem;
   }
 
   &__author {
@@ -84,8 +90,8 @@
     gap: 17px;
     .avatar {
       div {
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
         background-size: cover;
         background-position: center center;
         border: 1px solid $white;

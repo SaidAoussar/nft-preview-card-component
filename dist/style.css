@@ -41,17 +41,18 @@ body {
 
 .card {
   background-color: #14253d;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 
 .card__image {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   overflow: hidden;
+  margin-bottom: 1.625rem;
 }
 
 .card__image div {
   position: relative;
-  height: 280px;
+  height: 17.5rem;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -85,10 +86,11 @@ body {
 }
 
 .card__title {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  margin-bottom: 1.25rem;
   cursor: pointer;
 }
 
@@ -97,10 +99,11 @@ body {
 }
 
 .card__description {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   color: #8bacda;
   line-height: 1.5;
+  margin-bottom: 1.625rem;
 }
 
 .card__info {
@@ -110,13 +113,14 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .card__info .price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
+  padding: 0.3125rem;
   color: #00fff7;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -124,7 +128,7 @@ body {
 }
 
 .card__info .price img {
-  margin-right: 5px;
+  margin-right: 0.3125rem;
   height: 18px;
 }
 
@@ -132,7 +136,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
+  padding: 0.3125rem;
   color: #8bacda;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -140,12 +144,14 @@ body {
 }
 
 .card__info .publish-date img {
-  margin-right: 5px;
+  margin-right: 0.3125rem;
   height: 17px;
 }
 
 .card hr {
   border: 1px solid #2f415b;
+  margin-top: 0px;
+  margin-bottom: 0.75rem;
 }
 
 .card__author {
@@ -159,8 +165,8 @@ body {
 }
 
 .card__author .avatar div {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   background-size: cover;
   background-position: center center;
   border: 1px solid white;
